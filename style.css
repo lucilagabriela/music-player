@@ -15,13 +15,20 @@ body {
     font-family: sans-serif;
     display: flex; /* mudanca de disposicao */
     flex-direction: column;
+    align-items: center;
     }
 
-#below {
+#info-cover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 3em 0 1em 0;
+}
+
+#song-name {
+    font-size: 1.5em;
+    font-weight: bolder;
 }
 
 #buttons {
@@ -36,29 +43,27 @@ body {
 }
 
 .button-navigate {
-    font-size: 2em;
-}
-
-.button-biggest {
     font-size: 3em;
 }
 
-/* */
-
-#image-song {
-    max-width:500px;
-    max-height:450px;
-    width: auto;
-    height: auto;
-    text-align: center;
+.button-biggest {
+    font-size: 4em;
 }
 
-main {
-    padding: 50px;
-    width: 600px;
-    margin: auto; /* centralizar */
+#cover {
+    width: 350px;
+
 }
 
+#playlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 4em;
+    margin-top: 1em;
+}
+
+/*
 h5 {
     text-align: center;
     padding-bottom: 13px;
@@ -67,3 +72,4 @@ h5 {
 div {
     padding: 3px;
 }
+*/
